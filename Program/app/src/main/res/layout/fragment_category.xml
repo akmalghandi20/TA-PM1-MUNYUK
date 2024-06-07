@@ -36,5 +36,13 @@
             tools:layout_editor_absoluteX="220dp"
             tools:layout_editor_absoluteY="129dp" />
 
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lumba"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="268dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
