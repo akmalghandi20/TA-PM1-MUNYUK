@@ -10,14 +10,6 @@
 
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/et_style"
-        android:hint="Your name"
-        android:padding="10dp" />
-
     <FrameLayout
         android:id="@+id/frm_lay"
         android:layout_width="0dp"

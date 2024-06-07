@@ -7,8 +7,6 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.uti.indonesea.databinding.ActivityMainBinding
-import android.os.Bundle;
-import android.widget.EditText;
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding

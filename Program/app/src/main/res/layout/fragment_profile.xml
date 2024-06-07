@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="42dp"
         android:scaleType="centerCrop"
         android:src="@drawable/profile_astro" />
 
@@ -18,19 +18,18 @@
         android:id="@+id/Login_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:padding="15dp"
         android:layout_margin="10dp"
         android:elevation="5dp"
         android:hint="Username"
         android:ems="10"
         android:inputType="text"
         android:background="@drawable/et_style"/>
-
     <EditText
-        android:id="@+id/Login_username"
+        android:id="@+id/Login_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:padding="15dp"
         android:layout_margin="10dp"
         android:elevation="5dp"
         android:hint="Phone"
@@ -39,33 +38,33 @@
         android:background="@drawable/et_style"/>
 
     <EditText
-        android:id="@+id/Login_username"
+        android:id="@+id/Login_biodata"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:padding="40dp"
         android:layout_margin="10dp"
         android:elevation="5dp"
         android:hint="Bio Data"
         android:ems="10"
         android:inputType="text"
         android:background="@drawable/et_style"/>
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:gravity="center_vertical"
         android:layout_marginTop="20dp"
-        android:orientation="vertical"
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/et_style"
-            android:text="Update Profile"
-            android:id="@+id/Profile_update_btn"
-            <ProgressBar
-                android:layout_width="32dp"
-                android:layout_height="wrap_content"
-                android:indeterminateTint="@color/black"
-                android:layout_gravity="center"
-                android:id="@+id/Profile_progress_btn"
+        android:orientation="vertical"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_style"
+        android:text="Update Profile"
+        android:id="@+id/Profile_update_btn"/>
+    <ProgressBar
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/Profile_progress_btn"/>
     </LinearLayout>
