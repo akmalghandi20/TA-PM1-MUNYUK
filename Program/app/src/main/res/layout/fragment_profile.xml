@@ -37,6 +37,18 @@
         android:ems="10"
         android:inputType="text"
         android:background="@drawable/et_style"/>
+
+    <EditText
+        android:id="@+id/Login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:hint="Bio Data"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/et_style"/>
     
     <LinearLayout
         android:layout_width="match_parent"
