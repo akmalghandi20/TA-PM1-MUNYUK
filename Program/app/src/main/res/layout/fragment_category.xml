@@ -19,5 +19,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ikan"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="129dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
