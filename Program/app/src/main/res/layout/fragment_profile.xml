@@ -37,4 +37,23 @@
         android:ems="10"
         android:inputType="text"
         android:background="@drawable/et_style"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_style"
+            android:text="Update Profile"
+            android:id="@+id/Profile_update_btn"
+            <ProgressBar
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:indeterminateTint="@color/black"
+                android:layout_gravity="center"
+                android:id="@+id/Profile_progress_btn"
     </LinearLayout>
