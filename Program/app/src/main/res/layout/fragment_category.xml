@@ -52,5 +52,13 @@
             tools:layout_editor_absoluteX="228dp"
             tools:layout_editor_absoluteY="280dp" />
 
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paus"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="430dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
