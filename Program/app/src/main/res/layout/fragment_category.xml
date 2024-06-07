@@ -44,5 +44,13 @@
             tools:layout_editor_absoluteX="36dp"
             tools:layout_editor_absoluteY="268dp" />
 
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pari"
+            tools:layout_editor_absoluteX="228dp"
+            tools:layout_editor_absoluteY="280dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
