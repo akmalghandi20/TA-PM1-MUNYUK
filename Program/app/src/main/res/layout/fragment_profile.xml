@@ -41,7 +41,7 @@
         android:id="@+id/Login_biodata"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="30dp"
+        android:padding="40dp"
         android:layout_margin="8dp"
         android:elevation="5dp"
         android:hint="Bio Data"
