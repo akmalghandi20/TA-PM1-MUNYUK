@@ -15,7 +15,7 @@
         <FrameLayout
             android:id="@+id/frm_penyu"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="130dp"
             android:layout_margin="10dp"
             android:background="#FFEEEEEE"
             app:layout_constraintEnd_toEndOf="parent"
@@ -29,8 +29,7 @@
                 android:layout_gravity="top"
                 android:scaleType="fitCenter"
                 android:background="#00FFFFFF"
-                android:src="@drawable/penyu"
-
+                android:src="@drawable/penyu" />
             <TextView
                 android:id="@+id/txt_penyu"
                 android:layout_width="wrap_content"
@@ -40,8 +39,9 @@
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:text="Penyu adalah hewan laut di Indonesia yang hampir punah dan hanya ada 6 jenis Penyu di Indonesia"
-                android:textSize="16dp" />
-                />
+                android:textSize="14dp"
+                tools:ignore="RtlCompat" />
+
         </FrameLayout>
 
         <TextView
