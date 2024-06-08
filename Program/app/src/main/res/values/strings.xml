@@ -5,4 +5,11 @@
     <string name="title_add_home">HOME</string>
     <string name="title_view_category">CATEGORY</string>
     <string name="title_edit_profile">PROFILE</string>
+    <string name="berita_satu">Penyu Adalah Hewan Dilindungi Di Indonesia</string>
+    <string name="berita_dua">lorem</string>
+    <string name="berita_tiga">lorem a</string>
+    <string name="berita_empat">lorem b</string>
+    <string name="berita_lima">lorem c</string>
+    <string name="berita_enam">lorem d</string>
+    <string name="berita_tujuh">lorem e</string>
 </resources>

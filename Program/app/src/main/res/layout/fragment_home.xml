@@ -23,38 +23,15 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/con_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <LinearLayout
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/view_content"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:layout_margin="20dp"
-                    android:orientation="horizontal"
-                    android:background="#FF373A40"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
-
-                    <ImageButton
-                        android:id="@+id/imageButton2"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="15dp"
-                        android:src="@drawable/penyu" />
-
-                    <TextView
-                        android:id="@+id/textView2"
-                        android:layout_margin="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:background="#FF373A40"
-                        android:text="Penyu"
-                        android:textSize="20dp"
-                        android:textColor="@color/white"/>
-                </LinearLayout>
+                    android:layout_height="match_parent"
+                    tools:listitem="@layout/list_item" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
 
