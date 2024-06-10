@@ -115,7 +115,18 @@
                     app:layout_constraintEnd_toStartOf="@+id/btnkerang"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtikan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ikan"
+                    app:layout_constraintEnd_toEndOf="@+id/btnikan"
+                    app:layout_constraintHorizontal_bias="0.682"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnikan" />
             </androidx.constraintlayout.widget.ConstraintLayout>
+
         </FrameLayout>
 
         <TextView
