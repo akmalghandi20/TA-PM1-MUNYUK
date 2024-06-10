@@ -58,6 +58,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+                <TextView
+                    android:id="@+id/txtpaus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paus"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.313"
+                    app:layout_constraintStart_toStartOf="@+id/btnpaus"
+                    app:layout_constraintTop_toBottomOf="@+id/btnpaus" />
+
+                <TextView
+                    android:id="@+id/txtlumba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lumba - Lumba"
+                    app:layout_constraintEnd_toEndOf="@+id/btnlumba"
+                    app:layout_constraintHorizontal_bias="0.814"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnlumba" />
+
                 <ImageButton
                     android:id="@+id/btnpaus"
                     android:layout_width="wrap_content"
