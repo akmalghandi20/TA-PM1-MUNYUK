@@ -43,12 +43,24 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
-                    android:id="@+id/imageButton7"
+                    android:id="@+id/btnkerang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/kerang"
+                    android:layout_marginEnd="50dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/btnikan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
                     android:backgroundTint="#FFFFFF"
                     android:src="@drawable/ikan"
-                    android:layout_marginTop="30dp"
+                    app:layout_constraintEnd_toStartOf="@+id/btnkerang"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
