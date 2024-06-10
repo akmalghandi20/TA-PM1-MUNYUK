@@ -39,6 +39,7 @@
                     android:backgroundTint="#00EFEFEF"
                     android:src="@drawable/paus"
                     android:layout_marginTop="30dp"
+                    android:layout_marginEnd="50dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,6 +50,7 @@
                     android:layout_marginTop="30dp"
                     android:backgroundTint="#00FFFFFF"
                     android:src="@drawable/lumba"
+                    app:layout_constraintEnd_toStartOf="@+id/btnpaus"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
