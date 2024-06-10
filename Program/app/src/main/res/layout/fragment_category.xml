@@ -23,6 +23,16 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    android:id="@+id/txtpenyu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Penyu"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.302"
+                    app:layout_constraintStart_toStartOf="@+id/btnpenyu"
+                    app:layout_constraintTop_toBottomOf="@+id/btnpenyu" />
+
+                <TextView
                     android:id="@+id/txtpari"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
