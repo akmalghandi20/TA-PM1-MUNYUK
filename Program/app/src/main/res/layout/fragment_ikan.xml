@@ -10,6 +10,60 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="67dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/napoleon"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/napoleon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnapoleon" />
+
+                <TextView
+                    android:id="@+id/txtnapoleon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="20dp"
+                    android:text="1. Ikan Napoleon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdesk2" />
+
+                <TextView
+                    android:id="@+id/txtdesk1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Ada beberapa spesies hewan di seluruh dunia yang semakin langka dan semakin terancam eksistensinya. Beberapa faktor penting dari terancamnya hewan-helan langka di dunia tak lepas dari berbagai aktivitas manusia mulai dari pemburuan liar hingga pembalakan hutan. Kini banyak ikan mulai terancam punah dan harus menjadi satwa yang dilindungi termasuk di indonesia. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtdesk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Berikut adalah spesies ikan yang terancam punah dan dilindungi di Indonesia"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdesk1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+
         <TextView
             android:id="@+id/textView"
             style="@style/TitleFragment"
