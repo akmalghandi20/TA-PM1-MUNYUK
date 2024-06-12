@@ -38,10 +38,42 @@
                 android:background="#00EEEEEE"
                 android:textStyle="bold"
                 android:textAlignment="center"
-                android:text="Penyu adalah hewan laut di Indonesia yang hampir punah dan hanya ada 6 jenis Penyu di Indonesia"
+                android:text="@string/berita_satu"
                 android:textSize="14dp"
                 tools:ignore="RtlCompat" />
 
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frm_parimanta"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:background="#FFEEEEEE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frm_penyu">
+
+            <ImageButton
+                android:id="@+id/img_parimanta"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="top"
+                android:scaleType="fitCenter"
+                android:background="#00FFFFFF"
+                android:src="@drawable/parimanta" />
+
+            <TextView
+                android:id="@+id/txt_parimanta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#00EEEEEE"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Pari Manta adalah salah satu ikan pari yang dilindungi di indonesia"
+                android:textSize="14dp"
+                tools:ignore="RtlCompat" />
         </FrameLayout>
 
         <TextView
@@ -49,7 +81,7 @@
             style="@style/TitleFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome to IndoneSEA"
+            android:text="@string/title_add_home"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
