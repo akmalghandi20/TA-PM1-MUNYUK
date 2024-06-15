@@ -6,18 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".IkanFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <FrameLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="67dp">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:id="@+id/txtnapoleon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="15dp"
+                    android:text="Permintaan pasar yang tinggi untuk ikan napoleon mendorong terjadinya eksploitasi besar-besaran. Akibatnya, populasi ikan ini menurun cukup drastis bukan hanya di Indonesia tetapi juga di beberapa negara. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnapoleon2" />
 
                 <TextView
                     android:id="@+id/txtnapoleon2"
@@ -25,8 +39,9 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
-                    android:text="Napoleon dikategorikan sebagai ikan yang hampir punah. Ini karena ikan napoleon menjadi jenis ikan layak konsumsi di sejumlah negara Asia, seperti Singapura, Hong Kong, China, dan Taiwan. Harga jualnya yang tinggi pun mengundang eksploitasi besar-besaran terhadap ikan ini. Permintaan pasar yang tinggi untuk ikan napoleon mendorong terjadinya eksploitasi besar-besaran. Akibatnya, populasi ikan ini menurun cukup drastis bukan hanya di Indonesia tetapi juga di beberapa negara. "
+                    android:text="Napoleon dikategorikan sebagai ikan yang hampir punah. Ini karena ikan napoleon menjadi jenis ikan layak konsumsi di sejumlah negara Asia, seperti Singapura, Hong Kong, China, dan Taiwan. Harga jualnya yang tinggi pun mengundang eksploitasi besar-besaran terhadap ikan ini. "
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtnapoleon1" />
 
@@ -37,16 +52,16 @@
                     android:padding="15dp"
                     android:text="Ikan napoleon merupakan jenis ikan karang terbesar dari famili Labridae, subfamili Cheilininae. Ikan ini memiliki nama latin Cheilinus Undulatus, dan dalam bahasa Inggris terkenal dengan nama Humphead Wrasse. Ikan ini merupakan ikan karang berukuran besar dari familia Labridae. Ukurannya bisa mencapai 3 m dengan berat 190 kg.  "
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/napoleon" />
 
                 <ImageView
                     android:id="@+id/napoleon"
-                    android:layout_width="300dp"
+                    android:layout_width="250dp"
                     android:layout_height="150dp"
+                    android:background="#00FFFFFF"
                     android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
                     android:src="@drawable/napoleon"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtnapoleon" />
@@ -55,8 +70,8 @@
                     android:id="@+id/txtnapoleon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
                     android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
                     android:text="1. Ikan Napoleon"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtdesk2" />
@@ -66,7 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="15dp"
-                    android:text="Ada beberapa spesies hewan di seluruh dunia yang semakin langka dan semakin terancam eksistensinya. Beberapa faktor penting dari terancamnya hewan-helan langka di dunia tak lepas dari berbagai aktivitas manusia mulai dari pemburuan liar hingga pembalakan hutan. Kini banyak ikan mulai terancam punah dan harus menjadi satwa yang dilindungi termasuk di indonesia. "
+                    android:text="Ada beberapa spesies hewan di seluruh dunia yang semakin langka dan semakin terancam eksistensinya.   Beberapa faktor penting dari terancamnya hewan-helan langka di dunia tak lepas dari berbagai aktivitas manusia mulai dari pemburuan liar hingga pembalakan hutan. Kini banyak ikan mulai terancam punah dan harus menjadi satwa yang dilindungi termasuk di indonesia.  "
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -75,24 +90,24 @@
                     android:id="@+id/txtdesk2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingRight="20dp"
                     android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
                     android:text="Berikut adalah spesies ikan yang terancam punah dan dilindungi di Indonesia"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtdesk1" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </FrameLayout>
 
-        <TextView
-            android:id="@+id/textView"
-            style="@style/TitleFragment"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="IKAN"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IKAN" />
+
 </FrameLayout>
