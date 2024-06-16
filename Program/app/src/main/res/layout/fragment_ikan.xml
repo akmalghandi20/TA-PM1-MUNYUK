@@ -110,8 +110,8 @@
 
                 <ImageView
                     android:id="@+id/imgmola"
-                    android:layout_width="210dp"
-                    android:layout_height="180dp"
+                    android:layout_width="230dp"
+                    android:layout_height="200dp"
                     android:layout_margin="15dp"
                     android:background="#00FFFFFF"
                     android:src="@drawable/mola"
@@ -150,6 +150,58 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtmola2" />
+
+                <TextView
+                    android:id="@+id/txtselusur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="3. Selusur Maninjau"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtmola3" />
+
+                <ImageView
+                    android:id="@+id/imgselusur"
+                    android:layout_width="230dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/SelusurManinjau"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtselusur" />
+
+                <TextView
+                    android:id="@+id/txtselusur1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Secara umum, ikan selusur maninjau (Homalopterula gymnogaster) memiliki badan bagian depan yang datar dengan sirip dada dan sirip perut memanjang ke arah samping. Sirip punggungnya berada di belakang sirip perut, terdapat 60-73 sisik pada gurat sisi, awal sirip dubur lebih dekat ke pangkal sirip ekor daripada pangkal sirip perut, bagian perut berada di depan sirip perut dan tidak terdapat sisik pada bagian tersebut. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgselusur" />
+
+                <TextView
+                    android:id="@+id/txtselusur2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Selusur maninjau merupakan ikan endemik Danau Maninjau, Sumatera Barat. Spesies ikan ini menghuni danau yang cenderung berada di dataran tinggi dengan ketinggian sekitar 100-1800 meter dpl."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtselusur1" />
+
+                <TextView
+                    android:id="@+id/txtselusur3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Namun, keberadaannya juga dapat ditemukan pada aliran sungai sekitar danau. Sebagian besar masyarakat belum banyak mengetahui informasi terkait ikan selusur maninjau dan status konservasinya di alam. Sehingga masih sering ditemui masyarakat mengonsumsi atau menjadikannya sebagai ikan hias. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtselusur2" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
