@@ -12,6 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TitleFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_add_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <FrameLayout
             android:id="@+id/headline"
             android:layout_width="match_parent"
@@ -95,16 +105,6 @@
                 android:textSize="14dp"
                 tools:ignore="RtlCompat" />
         </FrameLayout>
-
-        <TextView
-            android:id="@+id/textView"
-            style="@style/TitleFragment"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/title_add_home"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <FrameLayout
             android:id="@+id/frm_lumba"
