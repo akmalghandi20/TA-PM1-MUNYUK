@@ -397,6 +397,83 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtbelida4" />
 
+                <TextView
+                    android:id="@+id/txtraja"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="7. Ikan Raja Laut"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida5" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="15dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/RajaLaut"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja" />
+
+                <TextView
+                    android:id="@+id/txtraja1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan raja laut atau coelacanth sulawesi (Latimeria menadoensis) merupakan salah satu dari dua spesies ikan purba Coelacanth. Spesies ini sempat dinyatakan punah namun kemudian ditemukan lagi secara tidak sengaja pada tahun 1998 di perairan Manado Tua, Sulawesi Utara. Pulau ini termasuk dalam kawasan Taman Nasional Bunaken. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+                <TextView
+                    android:id="@+id/txtraja2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Ikan raja laut ini memiliki fisik yang berbeda dengan ikan pada umumnya. Ikan ini memiliki warna kecoklatan dengan bercak putih tidak merata pada sisiknya, memiliki tujuh sirip berlobi daging, terdapat sirip tambahan pada sirip ekornya, memiliki sambungan intrakkranial pada bagian atas kepalanya, serta memiliki notokorda atau tulang rawan berisi cairan yang berfungsi untuk menyangga tubuhnya. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja1" />
+
+                <TextView
+                    android:id="@+id/txtraja3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Habitat dari ikan yang diduga nokturnal ini yaitu perairan bersuhu 12-20 derajat Celcius dan tinggal dalam cekungan vulkanik berbentuk gua yang tedapat pada kedalaman 100-400 meter sebagai tempat perlindungannya. Ikan ini pun dapat ditemukan pada kedalaman 90-100 meter. Selain itu, ikan ini merupakan karnivora yang memakan krustase, dan jenis ikan lainnya. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja2" />
+
+                <TextView
+                    android:id="@+id/txtraja4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Di Indonesia, ikan ini termasuk hewan yang dilindungi berdasarkan Peraturan Menteri Lingkungan Hidup Kehutanan No P. 106/MENLHK/SETJEN/KUM.1/12/2018 dan termasuk dalam daftar Apendiks I CITES sejak tahun 2000.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja3" />
+
+                <TextView
+                    android:id="@+id/txtraja5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Ancaman utama yang dihadapi oleh hewan ini adalah bycatch atau adanya penangkapan secara tidak sengaja diluar spesies target, dimana ikan ini sering tidak sengaja terperangkap dalam jala untuk menangkap kakap laut dalam. Tingkat reproduksi dan kesuburan yang rendah juga merupakan salah satu ancaman dari keberlangsungan spesies ini. Selain itu, ancaman lainnya berkaitan dengan pencemaran air laut, yaitu polusi sampah pelastik yang semakin lama semakin banyak di lautan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja4" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
