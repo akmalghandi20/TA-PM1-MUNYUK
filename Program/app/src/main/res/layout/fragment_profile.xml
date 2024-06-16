@@ -67,4 +67,10 @@
         android:indeterminateTint="@color/black"
         android:layout_gravity="center"
         android:id="@+id/Profile_progress_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logout_btn"/>
     </LinearLayout>
