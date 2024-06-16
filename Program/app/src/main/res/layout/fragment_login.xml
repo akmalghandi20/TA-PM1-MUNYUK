@@ -6,6 +6,36 @@
     android:background="@drawable/logomobile"
     tools:context=".LoginFragment">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/my_primary"
+        android:alpha="0.7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#02FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:text="IndoneSEA"
+            android:textColor="@color/black"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 
 
 </RelativeLayout>
