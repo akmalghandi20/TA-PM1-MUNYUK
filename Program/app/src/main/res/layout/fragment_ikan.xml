@@ -320,6 +320,83 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtterubuk2" />
 
+                <TextView
+                    android:id="@+id/txtbelida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="6. Ikan Belida"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtterubuk3" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="270dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="15dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/Belida"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida" />
+
+                <TextView
+                    android:id="@+id/txtbelida1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan belida mempunyai beberapa nama lokal diantaranya belido (Sumatera) dan pipih (Kalimantan), serta putak untuk belida jenis tertentu. Secara taksonomi hewan yaitu ilmu yang mempelajari tentang tata nama hewan, diketahui bahwa belida di Indonesia terdiri dari 4 jenis atau spesies. Keempat jenis ikan belida tersebut mempunyai nama yang terkait dengan daerah sebaran alaminya maupun lokasi pertama kali ditemukan (type locality). "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+                <TextView
+                    android:id="@+id/txtbelida2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Namun demikian bukan berarti jenis belida yang dimaksud hanya tersebar di lokasi yang melekat pada namanya. Sebagai contoh belida jawa bukan hanya dijumpai di perairan wilayah Jawa akan tetapi sebarannya justru sampai ke Asia Selatan yaitu India. Jenis ikan ini mendiami perairan sungai yang berarus lambat sampai tenang, maupun danau dan waduk.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida1" />
+
+                <TextView
+                    android:id="@+id/txtbelida3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Berdasarkan habitatnya, belida termasuk ke dalam kelompok ikan air tawar primer karena sama sekali tidak toleran terhadap kadar garam, artinya bila perairan tersebut mengandung garam atau terinterupsi oleh air laut maka belida tidak dapat hidup dengan baik atau bahkan mati. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida2" />
+
+                <TextView
+                    android:id="@+id/txtbelida4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Status belida sebagai jenis ikan yang dilindungi penuh yang berarti tidak diperbolehkan adanya penangkapan langsung dari alam terus menjadi perdebatan oleh masyarakat dan para pemangku kepentingan di sektor perikanan darat. Hal ini mengingat ikan belida merupakan bahan baku makanan khas dengan tingkat permintaan yang tinggi. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida3" />
+
+                <TextView
+                    android:id="@+id/txtbelida5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text=" Hal ini dikarenakan belida menjadi bahan baku makanan khas di wilayah tersebut yang juga digemari oleh masyarakat luas yaitu pempek dan kerupuk Palembang. Adapun di Kalimantan, belida juga dimanfaatkan sebagai bahan bahan baku &quot;Amplang&quot; yang merupakan kerupuk ikan khas Kalimantan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida4" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
