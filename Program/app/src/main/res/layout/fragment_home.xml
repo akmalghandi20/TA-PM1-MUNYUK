@@ -13,6 +13,25 @@
         android:layout_height="match_parent">
 
         <FrameLayout
+            android:id="@+id/headline"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <TextView
+                android:id="@+id/txt_headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Headline News"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
             android:id="@+id/frm_penyu"
             android:layout_width="match_parent"
             android:layout_height="130dp"
@@ -20,26 +39,27 @@
             android:background="#FFEEEEEE"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView">
+            app:layout_constraintTop_toBottomOf="@+id/headline">
 
             <ImageButton
                 android:id="@+id/img_penyu"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_gravity="top"
-                android:scaleType="fitCenter"
                 android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
                 android:src="@drawable/penyu" />
+
             <TextView
                 android:id="@+id/txt_penyu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:background="#00EEEEEE"
-                android:textStyle="bold"
-                android:textAlignment="center"
                 android:text="@string/berita_satu"
+                android:textAlignment="center"
                 android:textSize="14dp"
+                android:textStyle="bold"
                 tools:ignore="RtlCompat" />
 
         </FrameLayout>
@@ -87,7 +107,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <FrameLayout
-            android:id="@+id/frameLayout"
+            android:id="@+id/frm_lumba"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_margin="10dp"
@@ -126,7 +146,7 @@
             android:background="#FFEEEEEE"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+            app:layout_constraintTop_toBottomOf="@+id/frm_lumba">
 
             <ImageButton
                 android:id="@+id/img_dugong"
@@ -138,8 +158,7 @@
                 android:src="@drawable/dugong" />
 
             <TextView
-                android:id="@+id/txt_dugong
-"
+                android:id="@+id/txt_dugong"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
