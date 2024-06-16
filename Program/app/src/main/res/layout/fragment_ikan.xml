@@ -203,6 +203,71 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtselusur2" />
 
+                <TextView
+                    android:id="@+id/txtikanbatak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="4. Ikan Batak"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtselusur3" />
+
+                <ImageView
+                    android:id="@+id/imgbatak"
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="15dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/ikanBatak"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="ikan batak memiliki ciri badan pipih memanjang dengan warna keperakan di usia kurang dari enam bulan. Seiring bertambahnya usia warna ikan batak ini akan berubah menjadi kuning kehijauan.kan batak ini banyak ditemui di perairan dangkal danau yang berarus deras, pada kedalaman 4-5 meter dengan dasar berpasir atau bebatuan. Namun ketika usia nya bertambah, ikan batak lebih memilih berenang di bebatuan dasar danau sampai kedalaman maksimal 15 meter."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgbatak" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Ikan batak dulunya menjadi hidangan wajib keluarga raja dan bangsawan di Toba. Ikan ini sering menjadi semacam mula jadi na bolon atau persembahan kepada Tuhan saat acara keagamaan. Ikan batak juga menjadi makanan yang paling ditunggu-tunggu saat acara upa upa atau mangupa oleh masyarakat adat Mandailing. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak1" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Saat ini, ikan jurung semakin sulit ditemukan di pasaran. Populasinya yang kian berkurang di alam liar dipicu oleh penangkapan secara berlebihan, kerusakan habitat akibat penggundulan hutan, pencemaran air oleh aktivitas pertanian, dan keberadaan keramba apung. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak2" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Belum lagi tingkat pertumbuhannya yang tergolong lambat. Untuk sekadar mencapai ukuran ikan konsumsi, butuh waktu sekitar 1 tahun. Di habitat aslinya, ikan batak mampu tumbuh lebih dari 1 meter dengan berat melebihi 30 kg.   "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak3" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
