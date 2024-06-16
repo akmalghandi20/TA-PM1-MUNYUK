@@ -268,6 +268,58 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtikanbatak3" />
 
+                <TextView
+                    android:id="@+id/txtterubuk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="5. Ikan Terubuk"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak4" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="250dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/Terubuk"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtterubuk" />
+
+                <TextView
+                    android:id="@+id/txtterubuk1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan terubuk merupakan ikan pelagis kecil dari famili Clupeidae yang lebih dikenal sebagai ikan Herring di barat (Eropa). Ikan Terubuk menjadi primadona serta kebanggaan indonesia, khususnya di wilayah Riau. Kota Bengkalis yang berada di Pulau Bengkalis sangat dikenal sebagai Kota Terubuk sejak dahulunya. Julukan ini sebagai penanda bahwa Bengkalis sebagai daerah penghasil ikan terubuk (Tenualosa macrura) sejak masa lampau. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+                <TextView
+                    android:id="@+id/txtterubuk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Kabupaten Bengkalis dikenal dengan julukan kota ikan Terubuk karena ikan Terubuk menjadi sumber Daya ikan kebanggann daerah ini karena memiliki nilai ekonomis tinggi terutama telurnya dengan wilayah habitat hidupnya spesifik sehingga harus dikelola serta dimanfaatkan secara lestari untuk keberlanjutan dan keberadaannya. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtterubuk1" />
+
+                <TextView
+                    android:id="@+id/txtterubuk3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Kondisi populasi ikan terubuk sekarang mengalami penurunan populasi , hal tersebut dimungkinkan karena penangkapan dengan mengunakan alat yang tidak selektif, penangkapan di muara saat memijah, penangkapan ikan yang berlebih,  data tentang status populasi ikan belum diketahui secara pasti. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtterubuk2" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
