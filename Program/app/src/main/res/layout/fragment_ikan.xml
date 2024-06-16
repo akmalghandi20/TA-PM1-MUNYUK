@@ -21,6 +21,16 @@
                 android:layout_marginTop="70dp">
 
                 <TextView
+                    android:id="@+id/txtmola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="2. Ikan Mola - Mola"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnapoleon3" />
+
+                <TextView
                     android:id="@+id/txtnapoleon3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -54,14 +64,14 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/napoleon" />
+                    app:layout_constraintTop_toBottomOf="@+id/imgnapoleon" />
 
                 <ImageView
-                    android:id="@+id/napoleon"
-                    android:layout_width="250dp"
+                    android:id="@+id/imgnapoleon"
+                    android:layout_width="230dp"
                     android:layout_height="150dp"
                     android:background="#00FFFFFF"
-                    android:layout_marginTop="10dp"
+                    android:layout_margin="15dp"
                     android:src="@drawable/napoleon"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtnapoleon" />
@@ -97,6 +107,49 @@
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtdesk1" />
+
+                <ImageView
+                    android:id="@+id/imgmola"
+                    android:layout_width="210dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="15dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/mola"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtmola" />
+
+                <TextView
+                    android:id="@+id/txtmola1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan mola atau biasa juga dikenal dengan sebutan sunfish ini ternyata merupakan salah satu ikan purba. Asal dari ikan mola sendiri adalah pada area perairan sub tropis maupun tropis yang ada di seluruh dunia.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgmola" />
+
+                <TextView
+                    android:id="@+id/txtmola2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="Ikan mola memiliki berat dewasa sekitar 1.000 kg. Untuk ukurannya yang umum, ikan mola mampu mencapai panjang sekitar 1 meter. Untuk menemukan ikan ini sebenarnya akan lebih mudah ditemukan di perairan yang terdapat banyak ubur-ubur. Sebab makanan dari ikan mola adalah ubur-ubur. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtmola1" />
+
+                <TextView
+                    android:id="@+id/txtmola3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="15dp"
+                    android:text="Meski ikan mola mola terbilang cukup unik jika dilihat dari karakteristiknya. Namun sebenarnya ikan ini sedang dalam kondisi terancam kepunahannya. Sangat disayangkan jika salah satu hewan dengan keunikan tersendiri tiba-tiba punah begitu saja. Maka dari itu baik pemerintah dunia maupun pemerintah Indonesia juga telah memberikan instruksi perlindungan terhadap ikan mola. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtmola2" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
