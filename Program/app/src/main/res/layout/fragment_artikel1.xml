@@ -64,6 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
+                android:textSize="14dp"
                 android:text="@string/artikel1"/>
         </FrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
