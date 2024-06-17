@@ -38,6 +38,9 @@ class CategoryFragment : Fragment() {
         binding.btnikan.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, IkanFragment()).commit()
         }
+        binding.btnkerang.setOnClickListener{
+            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, KerangFragment()).commit()
+        }
         return binding.root
     }
 
