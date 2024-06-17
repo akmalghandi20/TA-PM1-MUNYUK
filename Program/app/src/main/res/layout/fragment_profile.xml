@@ -1,14 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileFragment">
+    tools:context=".ProfileFragment"
+    android:orientation="vertical"
+    android:gravity="center">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="42dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_astro" />
+
+    <EditText
+        android:id="@+id/Login_username"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="8dp"
+        android:elevation="5dp"
+        android:hint="Username"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/et_style"/>
+    <EditText
+        android:id="@+id/Login_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="8dp"
+        android:elevation="5dp"
+        android:hint="Phone"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/et_style"/>
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/Login_biodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_margin="8dp"
+        android:elevation="5dp"
+        android:hint="Bio Data"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/et_style"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_style"
+        android:text="Sig In"
+        android:id="@+id/login"/>
+    <ProgressBar
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/Profile_progress_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logout_btn"/>
+    </LinearLayout>
