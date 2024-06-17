@@ -50,6 +50,9 @@ class CategoryFragment : Fragment() {
         binding.btnpari.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, PariFragment()).commit()
         }
+        binding.btnpenyu.setOnClickListener{
+            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, PenyuFragment()).commit()
+        }
         return binding.root
     }
 
