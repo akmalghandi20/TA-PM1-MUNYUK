@@ -45,6 +45,9 @@ class HomeFragment : Fragment() {
         binding.imgLumba.setOnClickListener {
             requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, Artikel3Fragment()).commit()
         }
+        binding.imgDugong.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, Artikel4Fragment()).commit()
+        }
         return binding.root
     }
 
