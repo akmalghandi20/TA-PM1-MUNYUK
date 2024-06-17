@@ -58,7 +58,7 @@
                 android:layout_gravity="top"
                 android:background="#00FFFFFF"
                 android:scaleType="fitCenter"
-                android:src="@drawable/penyu" />
+                android:src="@drawable/penyucnt" />
 
             <TextView
                 android:id="@+id/txt_penyu"

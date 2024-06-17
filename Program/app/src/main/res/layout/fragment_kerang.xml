@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KerangFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp">
+
+                <ImageView
+                    android:id="@+id/imgkima"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/kima"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkima" />
+
+                <TextView
+                    android:id="@+id/txtkima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Kima"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdesk" />
+
+                <TextView
+                    android:id="@+id/txtdesk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Sebagai negara yang memilki perairan laut luas, tak ayal Indonesia memiliki berbagai ragam hayati biota laut. Salah satunya adalah kerang. Dari banyaknya kerang yang ada di Indonesia, berikut beberapa jenis kerang yang dilindungi."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtkima1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Kima merupakan salah satu jenis bivalvia (kerang-kerangan) yang sering ditemukan pada perairan ekosistem karang. Tubuhnya lunak dan dilindungi sepasang cangkang bertangkup. Cangkang kima terdiri dari 2 tangkup simetris yang terbuat dari zat kapur atau kalsium karbonat (CaCO3) dan umumnya berwarna putih kekuningan. Kima dapat tumbuh menjadi sangat besar di lingkungan terumbu karang."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgkima" />
+
+                <TextView
+                    android:id="@+id/txtkima2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Kima menjadi salah satu hewan laut yang dilindungi di Indonesia. Dilansir pada laman bpsplpadang.kkp.go.id, hewan bercangkang ini telah dilindungi sejak tahun 1999. Berdasarkan Peraturan Pemerintah Nomor 7 Tahun 1999 tentang Pengawetan dan Jenis Tumbuhan dan Satwa menetapkan tujuh jenis kima yang hidup di Indonesia ke dalam kategori satwa dilindungi."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkima1" />
+
+                <TextView
+                    android:id="@+id/txtkima3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Ketujuh kima yang dilindungi tersebut yaitu kima tapak kuda/kuku beruang (Hippopus hippopus), kima Cina (Hippopus porcellanus), kima kunia (Tridacna crocea), kima selatan (Tridacna derasa), kima raksasa (Tridacna gigas), kima kecil (Tridacna maxima), dan kima sisik/seruling (Tridacna squamosa). "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkima2" />
+
+                <TextView
+                    android:id="@+id/txtkambing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="2. Kerang Kepala Kambing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkima3" />
+
+                <ImageView
+                    android:id="@+id/imgkambing"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/kepalakambing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkambing" />
+
+                <TextView
+                    android:id="@+id/txtkambing1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Cassis Cornuta atau sering disebut Kerang Kepala Kambing adalah salah satu spesies terbesar dalam hal ukuran cangkang dalam filum moluska. Kerang ini masuk dalam famili Cassidae. Hewan bertubuh lunak dengan nama lain kerang helm ini umumnya bisa memiliki ukuran 22 sentimeter hingga dapat mencapai ukuran maksimal 36 sentimeter."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgkambing" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Kerang kepala kambing (Cassis Cornuta) adalah salah satu moluska yang dilindungi pemerintah. Diatur dalam Permen LHK nomor P.106/MENLHK/SETJEN/KUM.1/12/2018 Tentang Perubahan Kedua atas Peraturan Menteri Lingkungan Hidup dan Kehutanan Nomor P.20/MENLHK/SETJEN/KUM.1/6/2018 Tentang Jenis Tumbuhan dan Satwa yang Dilindungi Jo Peraturan Pemerintah Nomor 7 tahun 1999 Tentang Pengawetan Jenis Tumbuhan dan Satwa."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkambing1" />
+
+                <TextView
+                    android:id="@+id/txtnautilus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="3. Nautilus Berongga"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+                <ImageView
+                    android:id="@+id/imgnautilus"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/nautilusberongga"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnautilus" />
+
+                <TextView
+                    android:id="@+id/txtnautilus1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Nautilus merupakan moluska (hewan bertubuh lunak) pelagis dari famili Nautilidae. Berdasarkan catatan fosil yang telah ditemukan, nautilus tidak mengalami evolusi selama kurun waktu 500 juta tahun terakhir. Perubahan yang terjadi hanya tampak pada ukurannya saja yang semakin kecil dari waktu ke waktu."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgnautilus" />
+
+                <TextView
+                    android:id="@+id/txtnautilus2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Sekilas, nautilus memiliki bentuk umum yang mirip dengan cumi-cumi dengan kepala menonjol, tentakel yang panjang, lembut dan fleksibel. Faktanya hewan ini memiliki kekerabatan dengan cumi-cumi dan gurita yaitu pada tingkatan kelas Chepalopoda. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnautilus1" />
+
+                <TextView
+                    android:id="@+id/txtnautilus3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Hewan ini merupakan satu-satunya anggota kelas Chepalopoda dengan cangkang eksternal. Cangkangnya berbentuk spiral yang terdiri dari bilik besar untuk menempatkan tubuh dan bilik kecil yang berfungsi sebagai ruang udara untuk membantu nautilus mengapung di laut. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnautilus2" />
+
+                <TextView
+                    android:id="@+id/txttriton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="4. Triton Terompet"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnautilus3" />
+
+                <ImageView
+                    android:id="@+id/imgtriton"
+                    android:layout_width="200dp"
+                    android:layout_height="250dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/tritonterompet"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txttriton" />
+
+                <TextView
+                    android:id="@+id/txttriton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Seperti kerang-kerang lainnya, Triton Terompet memiliki kepala berkembang baik yang memiliki mata, tentakel, dan mulut menonjol berbentuk pipa. Juga terdapat otot-otot kaki datar yang digunakan untuk merayap. Selain itu, pada tubuh lunak berisi organ-organ internal yang dilindungi oleh cangkang berbentuk spiral. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgtriton" />
+
+                <TextView
+                    android:id="@+id/txttriton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Kekhasan fauna yang bisa membesar dan memanjang ini terletak pada bentuknya seperti trompet atau mirip tanduk. Selain itu, ukuran cangkangnya tergolong cukup besar, antara 30-50 cm. Cangkang umumnya berwarna krem dengan bintik-bintik kemerahan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txttriton1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KERANG" />
+
+</FrameLayout>

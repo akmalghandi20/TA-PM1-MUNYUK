@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LumbaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:id="@+id/txtdesklumba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Lumba - Lumba adalah salah satu mamalia laut yang dilindungi diseluruh dunia termasuk Indonesia. Mamalia tersebut dilindungi karena populasinya yang terus mengalami penurunan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtdesklumba1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Spesies tersebut mengalami penurunan populasi dikarenakan pencemaran laut, pemburuan liar, atau tidak sengaja terjerat perangkap nelayan. Berikut adalah jenis lumba - lumba yang dilindungi oleh Pemerintah Indonesia."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdesklumba" />
+
+                <TextView
+                    android:id="@+id/txtpesut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingTop="50dp"
+                    android:text="1. Pesut Mahakam"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdesklumba1" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/pesutmahakam"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtpesut" />
+
+                <TextView
+                    android:id="@+id/txtpesut1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Pesut Mahakam atau hewan bernama latin Orcaella brevirostris merupakan mamalia akuatik sejenis lumba-lumba yang hidup di perairan tawar. Pesut mahakam memiliki daerah sebaran yang sangat terbatas di Indonesia."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                <TextView
+                    android:id="@+id/txtpesut2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Hewan itu merupakan satu-satunya jenis lumba-lumba yang ditemukan hidup di perairan tawar. Sesuai dengan namanya, habitat dari pesut ini berada di Sungai Mahakam yang ada di Provinsi Kalimantan Timur. Tapi, populasinya hanya terkonsentrasi di bagian tengah sungai.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtpesut1" />
+
+                <TextView
+                    android:id="@+id/txtpesut3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Sama halnya dengan spesies lumba-lumba lain, pesut Mahakam juga tinggal berkelompok. Satu kelompok berisi antara tiga hingga enam pesut. Meski hidup berkelompok, pesut ini juga bersosialisasi dengan kelompok lainnya. Sama halnya dengan lumba-lumba jenis lain, pesut Mahakam juga tergolong sebagai hewan yang cerdas."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtpesut2" />
+
+                <TextView
+                    android:id="@+id/txtpesut4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Berdasarkan beberapa penelitian, dilaporkan bahwa populasi pesut Mahakam saat ini hanya tinggal sekitar 80 ekor. Penurunan jumlah populasi pesut Mahakam disebabkan oleh beberapa ancaman."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtpesut3" />
+
+                <TextView
+                    android:id="@+id/txtpesut5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Ancaman yang utama yaitu terjadinya penyusutan habitat. Penyusutan habitat yang terjadi merupakan dampak dari adanya aktivitas manusia, di mana terjadinya perubahan penggunaan lahan sehingga mengakibatkan degradasi habitat dan hilangnya habitat bagi banyak spesies."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtpesut4" />
+
+                <TextView
+                    android:id="@+id/txtbotol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="2. Lumba - Lumba Hidung Botol"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtpesut5" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/hidungbotol"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbotol" />
+
+                <TextView
+                    android:id="@+id/txtbotol1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Lumba-lumba hidung botol merupakan anggota keluarga lumba-lumba yang bersifat kosmopolitan. Itu artinya mereka hidup di seluruh dunia. Namun, karena mereka lebih suka berenang di perairan hangat, mereka gak ditemukan di wilayah Arktik maupun Antarktika."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+                <TextView
+                    android:id="@+id/txtbotol2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp"
+                    android:text="Gak cuma di pameran dan akuarium, hidung botol juga suka bermain di habitat aslinya. Mereka sering terlihat melompat menembus permukaan laut bersama kawan-kawannya. Kadang, mereka juga terlihat berinteraksi dengan penghuni laut lain. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbotol1" />
+
+                <TextView
+                    android:id="@+id/txtbotol3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Lumba-lumba hidung botol, seperti semua cetacea, dilindungi sebagai Spesies yang Dilindungi Eropa (EPS) . Undang-undang EPS melindungi semua spesies cetacea dari pembunuhan, cedera, dan gangguan yang disengaja dan sembrono."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbotol2" />
+
+                <TextView
+                    android:id="@+id/txtrisso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Lumba - Lumba Risso"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbotol3" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="250dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/risso"
+                    android:layout_margin="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtrisso" />
+
+                <TextView
+                    android:id="@+id/txtrisso1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Lumba lumba risso adalah salah satu jenis lumba lumba yang hidup di laut. Nama ilmiahnya adalah Grampus griseus. Lumba lumba ini memiliki ciri khas berupa kepala yang bulat, sirip punggung yang tinggi, dan tubuh yang berwarna abu-abu dengan bercak putih."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+                <TextView
+                    android:id="@+id/txtrisso2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Lumba - lumba jenis ini mengalami penurunan dikarenakan perubahan iklim dunia disebabkan oleh peningkatan konsentrasi gas rumah kaca di atmosfer, akibat aktivitas manusia seperti pembakaran bahan bakar fosil, penggundulan hutan, dan pertanian. Dan juga pastinya ada campur tangan manusia dalam proses penurunan populasinya."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtrisso1" />
+
+                <TextView
+                    android:id="@+id/txttotol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="4. Lumba - Lumba Totol"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtrisso2" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/totol"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txttotol" />
+
+                <TextView
+                    android:id="@+id/txttotol1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Lumba-lumba totol adalah spesies lumba-lumba yang ditemukan di seluruh samudra beriklim sedang dan tropis di dunia. Bintik-bintik merupakan karakteristik utama yang menciri pada hewan dewasa, meskipun individu yang belum dewasa umumnya berwarna seragam dan rentan dirancukan dengan lumba-lumba hidung botol. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+                <TextView
+                    android:id="@+id/txttotol2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Lumba-lumba totol pantropis sangat aktif dan cenderung melakukan lompatan besar dan heboh dari laut. Lumba-lumba ini memiliki perilaku permukaan bertipe &quot;merusak&quot; dan sering kali melompat ke atas permukaan air selama satu detik atau lebih. Spesies ini mulai terancam akibat pembunuhan jutaan individu dengan pukat harimau tuna."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txttotol1" />
+
+                <TextView
+                    android:id="@+id/txtfraser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="5. Lumba - Lumba Fraser"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txttotol2" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/fraser"
+                    android:layout_margin="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtfraser" />
+
+                <TextView
+                    android:id="@+id/txtfraser1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Jenis lumba-lumba lainnya adalah lumba-lumba fraser. Lumba-lumba ini merupakan jenis lumba-lumba yang dapat ditemukan di perairan Indonesia. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+                <TextView
+                    android:id="@+id/txtfraser2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Seekor mamalia laut cerdas yang memiliki nama latin Lagenodelphos hosei ini adalah jenis lumba-lumba paling kekar dan gempal jika dibanding jenis lumba-lumba lainnya. Mamalia ini bernafas dengan menghirup udara melalui paru-paru."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtfraser1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUMBA - LUMBA" />
+
+</FrameLayout>

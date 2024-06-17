@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IkanFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:id="@+id/txtmola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="2. Ikan Mola - Mola"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnapoleon3" />
+
+                <TextView
+                    android:id="@+id/txtnapoleon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="15dp"
+                    android:text="Permintaan pasar yang tinggi untuk ikan napoleon mendorong terjadinya eksploitasi besar-besaran. Akibatnya, populasi ikan ini menurun cukup drastis bukan hanya di Indonesia tetapi juga di beberapa negara. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnapoleon2" />
+
+                <TextView
+                    android:id="@+id/txtnapoleon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="Napoleon dikategorikan sebagai ikan yang hampir punah. Ini karena ikan napoleon menjadi jenis ikan layak konsumsi di sejumlah negara Asia, seperti Singapura, Hong Kong, China, dan Taiwan. Harga jualnya yang tinggi pun mengundang eksploitasi besar-besaran terhadap ikan ini. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnapoleon1" />
+
+                <TextView
+                    android:id="@+id/txtnapoleon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan napoleon merupakan jenis ikan karang terbesar dari famili Labridae, subfamili Cheilininae. Ikan ini memiliki nama latin Cheilinus Undulatus, dan dalam bahasa Inggris terkenal dengan nama Humphead Wrasse. Ikan ini merupakan ikan karang berukuran besar dari familia Labridae. Ukurannya bisa mencapai 3 m dengan berat 190 kg.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgnapoleon" />
+
+                <ImageView
+                    android:id="@+id/imgnapoleon"
+                    android:layout_width="230dp"
+                    android:layout_height="150dp"
+                    android:background="#00FFFFFF"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/napoleon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnapoleon" />
+
+                <TextView
+                    android:id="@+id/txtnapoleon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:text="1. Ikan Napoleon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdesk2" />
+
+                <TextView
+                    android:id="@+id/txtdesk1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ada beberapa spesies hewan di seluruh dunia yang semakin langka dan semakin terancam eksistensinya.   Beberapa faktor penting dari terancamnya hewan-helan langka di dunia tak lepas dari berbagai aktivitas manusia mulai dari pemburuan liar hingga pembalakan hutan. Kini banyak ikan mulai terancam punah dan harus menjadi satwa yang dilindungi termasuk di indonesia.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtdesk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Berikut adalah spesies ikan yang terancam punah dan dilindungi di Indonesia"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdesk1" />
+
+                <ImageView
+                    android:id="@+id/imgmola"
+                    android:layout_width="230dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/mola"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtmola" />
+
+                <TextView
+                    android:id="@+id/txtmola1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan mola atau biasa juga dikenal dengan sebutan sunfish ini ternyata merupakan salah satu ikan purba. Asal dari ikan mola sendiri adalah pada area perairan sub tropis maupun tropis yang ada di seluruh dunia.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgmola" />
+
+                <TextView
+                    android:id="@+id/txtmola2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="Ikan mola memiliki berat dewasa sekitar 1.000 kg. Untuk ukurannya yang umum, ikan mola mampu mencapai panjang sekitar 1 meter. Untuk menemukan ikan ini sebenarnya akan lebih mudah ditemukan di perairan yang terdapat banyak ubur-ubur. Sebab makanan dari ikan mola adalah ubur-ubur. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtmola1" />
+
+                <TextView
+                    android:id="@+id/txtmola3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="15dp"
+                    android:text="Meski ikan mola mola terbilang cukup unik jika dilihat dari karakteristiknya. Namun sebenarnya ikan ini sedang dalam kondisi terancam kepunahannya. Sangat disayangkan jika salah satu hewan dengan keunikan tersendiri tiba-tiba punah begitu saja. Maka dari itu baik pemerintah dunia maupun pemerintah Indonesia juga telah memberikan instruksi perlindungan terhadap ikan mola. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtmola2" />
+
+                <TextView
+                    android:id="@+id/txtselusur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="3. Selusur Maninjau"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtmola3" />
+
+                <ImageView
+                    android:id="@+id/imgselusur"
+                    android:layout_width="230dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/selusurmaninjau"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtselusur" />
+
+                <TextView
+                    android:id="@+id/txtselusur1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Secara umum, ikan selusur maninjau (Homalopterula gymnogaster) memiliki badan bagian depan yang datar dengan sirip dada dan sirip perut memanjang ke arah samping. Sirip punggungnya berada di belakang sirip perut, terdapat 60-73 sisik pada gurat sisi, awal sirip dubur lebih dekat ke pangkal sirip ekor daripada pangkal sirip perut, bagian perut berada di depan sirip perut dan tidak terdapat sisik pada bagian tersebut. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgselusur" />
+
+                <TextView
+                    android:id="@+id/txtselusur2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Selusur maninjau merupakan ikan endemik Danau Maninjau, Sumatera Barat. Spesies ikan ini menghuni danau yang cenderung berada di dataran tinggi dengan ketinggian sekitar 100-1800 meter dpl."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtselusur1" />
+
+                <TextView
+                    android:id="@+id/txtselusur3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Namun, keberadaannya juga dapat ditemukan pada aliran sungai sekitar danau. Sebagian besar masyarakat belum banyak mengetahui informasi terkait ikan selusur maninjau dan status konservasinya di alam. Sehingga masih sering ditemui masyarakat mengonsumsi atau menjadikannya sebagai ikan hias. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtselusur2" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="4. Ikan Batak"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtselusur3" />
+
+                <ImageView
+                    android:id="@+id/imgbatak"
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="15dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/ikanbatak"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="ikan batak memiliki ciri badan pipih memanjang dengan warna keperakan di usia kurang dari enam bulan. Seiring bertambahnya usia warna ikan batak ini akan berubah menjadi kuning kehijauan.kan batak ini banyak ditemui di perairan dangkal danau yang berarus deras, pada kedalaman 4-5 meter dengan dasar berpasir atau bebatuan. Namun ketika usia nya bertambah, ikan batak lebih memilih berenang di bebatuan dasar danau sampai kedalaman maksimal 15 meter."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgbatak" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Ikan batak dulunya menjadi hidangan wajib keluarga raja dan bangsawan di Toba. Ikan ini sering menjadi semacam mula jadi na bolon atau persembahan kepada Tuhan saat acara keagamaan. Ikan batak juga menjadi makanan yang paling ditunggu-tunggu saat acara upa upa atau mangupa oleh masyarakat adat Mandailing. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak1" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Saat ini, ikan jurung semakin sulit ditemukan di pasaran. Populasinya yang kian berkurang di alam liar dipicu oleh penangkapan secara berlebihan, kerusakan habitat akibat penggundulan hutan, pencemaran air oleh aktivitas pertanian, dan keberadaan keramba apung. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak2" />
+
+                <TextView
+                    android:id="@+id/txtikanbatak4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Belum lagi tingkat pertumbuhannya yang tergolong lambat. Untuk sekadar mencapai ukuran ikan konsumsi, butuh waktu sekitar 1 tahun. Di habitat aslinya, ikan batak mampu tumbuh lebih dari 1 meter dengan berat melebihi 30 kg.   "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak3" />
+
+                <TextView
+                    android:id="@+id/txtterubuk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="5. Ikan Terubuk"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtikanbatak4" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="250dp"
+                    android:layout_height="110dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/terubuk"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtterubuk" />
+
+                <TextView
+                    android:id="@+id/txtterubuk1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan terubuk merupakan ikan pelagis kecil dari famili Clupeidae yang lebih dikenal sebagai ikan Herring di barat (Eropa). Ikan Terubuk menjadi primadona serta kebanggaan indonesia, khususnya di wilayah Riau. Kota Bengkalis yang berada di Pulau Bengkalis sangat dikenal sebagai Kota Terubuk sejak dahulunya. Julukan ini sebagai penanda bahwa Bengkalis sebagai daerah penghasil ikan terubuk (Tenualosa macrura) sejak masa lampau. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+                <TextView
+                    android:id="@+id/txtterubuk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Kabupaten Bengkalis dikenal dengan julukan kota ikan Terubuk karena ikan Terubuk menjadi sumber Daya ikan kebanggann daerah ini karena memiliki nilai ekonomis tinggi terutama telurnya dengan wilayah habitat hidupnya spesifik sehingga harus dikelola serta dimanfaatkan secara lestari untuk keberlanjutan dan keberadaannya. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtterubuk1" />
+
+                <TextView
+                    android:id="@+id/txtterubuk3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Kondisi populasi ikan terubuk sekarang mengalami penurunan populasi , hal tersebut dimungkinkan karena penangkapan dengan mengunakan alat yang tidak selektif, penangkapan di muara saat memijah, penangkapan ikan yang berlebih,  data tentang status populasi ikan belum diketahui secara pasti. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtterubuk2" />
+
+                <TextView
+                    android:id="@+id/txtbelida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="6. Ikan Belida"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtterubuk3" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="270dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="15dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/belida"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida" />
+
+                <TextView
+                    android:id="@+id/txtbelida1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan belida mempunyai beberapa nama lokal diantaranya belido (Sumatera) dan pipih (Kalimantan), serta putak untuk belida jenis tertentu. Secara taksonomi hewan yaitu ilmu yang mempelajari tentang tata nama hewan, diketahui bahwa belida di Indonesia terdiri dari 4 jenis atau spesies. Keempat jenis ikan belida tersebut mempunyai nama yang terkait dengan daerah sebaran alaminya maupun lokasi pertama kali ditemukan (type locality). "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+                <TextView
+                    android:id="@+id/txtbelida2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Namun demikian bukan berarti jenis belida yang dimaksud hanya tersebar di lokasi yang melekat pada namanya. Sebagai contoh belida jawa bukan hanya dijumpai di perairan wilayah Jawa akan tetapi sebarannya justru sampai ke Asia Selatan yaitu India. Jenis ikan ini mendiami perairan sungai yang berarus lambat sampai tenang, maupun danau dan waduk.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida1" />
+
+                <TextView
+                    android:id="@+id/txtbelida3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Berdasarkan habitatnya, belida termasuk ke dalam kelompok ikan air tawar primer karena sama sekali tidak toleran terhadap kadar garam, artinya bila perairan tersebut mengandung garam atau terinterupsi oleh air laut maka belida tidak dapat hidup dengan baik atau bahkan mati. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida2" />
+
+                <TextView
+                    android:id="@+id/txtbelida4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Status belida sebagai jenis ikan yang dilindungi penuh yang berarti tidak diperbolehkan adanya penangkapan langsung dari alam terus menjadi perdebatan oleh masyarakat dan para pemangku kepentingan di sektor perikanan darat. Hal ini mengingat ikan belida merupakan bahan baku makanan khas dengan tingkat permintaan yang tinggi. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida3" />
+
+                <TextView
+                    android:id="@+id/txtbelida5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text=" Hal ini dikarenakan belida menjadi bahan baku makanan khas di wilayah tersebut yang juga digemari oleh masyarakat luas yaitu pempek dan kerupuk Palembang. Adapun di Kalimantan, belida juga dimanfaatkan sebagai bahan bahan baku &quot;Amplang&quot; yang merupakan kerupuk ikan khas Kalimantan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida4" />
+
+                <TextView
+                    android:id="@+id/txtraja"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="7. Ikan Raja Laut"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbelida5" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="15dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/rajalaut"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja" />
+
+                <TextView
+                    android:id="@+id/txtraja1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan raja laut atau coelacanth sulawesi (Latimeria menadoensis) merupakan salah satu dari dua spesies ikan purba Coelacanth. Spesies ini sempat dinyatakan punah namun kemudian ditemukan lagi secara tidak sengaja pada tahun 1998 di perairan Manado Tua, Sulawesi Utara. Pulau ini termasuk dalam kawasan Taman Nasional Bunaken. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+                <TextView
+                    android:id="@+id/txtraja2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Ikan raja laut ini memiliki fisik yang berbeda dengan ikan pada umumnya. Ikan ini memiliki warna kecoklatan dengan bercak putih tidak merata pada sisiknya, memiliki tujuh sirip berlobi daging, terdapat sirip tambahan pada sirip ekornya, memiliki sambungan intrakkranial pada bagian atas kepalanya, serta memiliki notokorda atau tulang rawan berisi cairan yang berfungsi untuk menyangga tubuhnya. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja1" />
+
+                <TextView
+                    android:id="@+id/txtraja3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Habitat dari ikan yang diduga nokturnal ini yaitu perairan bersuhu 12-20 derajat Celcius dan tinggal dalam cekungan vulkanik berbentuk gua yang tedapat pada kedalaman 100-400 meter sebagai tempat perlindungannya. Ikan ini pun dapat ditemukan pada kedalaman 90-100 meter. Selain itu, ikan ini merupakan karnivora yang memakan krustase, dan jenis ikan lainnya. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja2" />
+
+                <TextView
+                    android:id="@+id/txtraja4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Di Indonesia, ikan ini termasuk hewan yang dilindungi berdasarkan Peraturan Menteri Lingkungan Hidup Kehutanan No P. 106/MENLHK/SETJEN/KUM.1/12/2018 dan termasuk dalam daftar Apendiks I CITES sejak tahun 2000.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja3" />
+
+                <TextView
+                    android:id="@+id/txtraja5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:text="Ancaman utama yang dihadapi oleh hewan ini adalah bycatch atau adanya penangkapan secara tidak sengaja diluar spesies target, dimana ikan ini sering tidak sengaja terperangkap dalam jala untuk menangkap kakap laut dalam. Tingkat reproduksi dan kesuburan yang rendah juga merupakan salah satu ancaman dari keberlangsungan spesies ini. Selain itu, ancaman lainnya berkaitan dengan pencemaran air laut, yaitu polusi sampah pelastik yang semakin lama semakin banyak di lautan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtraja4" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IKAN" />
+
+</FrameLayout>

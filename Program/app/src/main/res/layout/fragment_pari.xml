@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PariFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Indonesia memiliki keragaman biota laut tertinggi di dunia, termasuk jenis elasmobranchii, atau ikan bertulang rawan. Namun, seiring tingginya eksploitasi sumberdaya perikanan, alat tangkap tidak ramah lingkungan, dan degradasi lingkungan habitatnya, populasi beragam jenis ikan di perairan Indonesia berkurang. Bahkan, beberapa jenis ikan pun sudah langka dijumpai, termasuk ikan pari. Berikut jenis - jenis Ikan Pari yang dilindungi."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="1. Pari Manta"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/manta"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Pari manta merupakan jenis ikan pari yang mempunyai ciri khas unik yaitu mempunyai sirip sefala (kepala) yang menyerupai sepasang tanduk di dekat mulutnya. Bisa dikatakan terbesar di dunia karena ukuran lebar tubuhnya bisa mencapai 6 – 8 m dari ujung sirip dada ke ujung sirip lainnya sehingga berat pari manta bisa mencapai sekitar 3 ton. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Populasi pari manta yang terus mengalami penurunan harus menjadi perhatian semua pihak. Memberikan penyuluhan kepada masyarakat nelayan tentang potensi ekonomi pari manta dalam bidang pariwisata serta memberikan alternatif pendapatan untuk meningkatkan ekonomi masyarakat pesisir."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="2. Pari Kai"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="180dp"
+                    android:layout_height="230dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/kai"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Pari Kai (Urolophus kaianus) punya bentuk tubuh membulat dengan moncong yang tumpul, bagian punggungnya berwarna cokelat kekuningan. Pari Kai punya lima pasang celah insang di tubuhnya yang relatif pendek. Spesies ikan ini punya ekor yang lebih pendek dari ukuran tubuhnya, uniknya lagi di bagian tengah ekor pari kai memiliki duri."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Ikan Pari Kai adalah spesies hewan endemik Pulau Kei di Maluku yang bisa hidup di kedalaman 236 meter di bawah permukaan laut."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="3. Pari Tutul"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/tutul"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Bentuk tubuh ikan pari sungai tutul (Himantura oxyrhyncha) hampir menyerupai bentuk segi empat, moncong pipih yang memanjang serta ukuran ekornya lebih panjang daripada ukuran tubuhnya dan memiliki corak tutul dibagian tubuhnya."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Pari Sungai Tutul dewasa memiliki ukuran lebar tubuh antara 15-36 cm, dan tersebar di perairan Sumatera dan Kalimantan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="4. Pari Pinggir Putih"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="260dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/pinggirputih"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Ikan pari sungai pinggir putih (Himantura signifer) punya bentuk tubuh pipih dan oval dengan pinggiran tubuh yang berwarna putih. Pari dewasanya bisa mencapai lebar 2 meter dan banyak ditemukan di Sumatera, Semenanjung Malaysia, hingga pulau Kalimantan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="5. Pari Gergaji"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/gergaji"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Bagi masyarakat awam pari gergaji ini sering disebut dengan hiu gergaji. Secara morfologi memang bentuknya mirip seperti hiu. Namun jika diperhatikan seksama, terdapat perbedaan spesifik antara jenis hiu dan pari yaitu tapis insangnya."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Jika kelompok jenis hiu posisi tapis insangnya berada disamping bagian kepala pada sisi kiri dan kanan, maka untuk jenis pari posisi tapis insang berada di bagian bawah (ventral)."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARI" />
+
+</FrameLayout>

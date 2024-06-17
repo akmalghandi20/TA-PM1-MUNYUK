@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PenyuFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Tahukah kamu jika dari tujuh spesies penyu di dunia, Indonesia memiliki enam spesies di antaranya. Seperti apa rupa dan keistimewaannya. Mari berkenalan lebih jauh dengan satwa laut yang satu ini."
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingTop="50dp"
+                    android:text="1. Penyu Belimbing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="250dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/belimbing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu belimbing adalah salah satu jenis penyu yang ada di perairan Indonesia. Jenis penyu yang satu ini mempunyai nama latin Dermochelys coriacea atau dalam bahasa Inggris disebut dengan leatherback turtle. Penyu belimbing merupakan penyu dengan ukuran yang cukup besar."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Di Indonesia sendiri, sudah ditetapkan Surat Keputusan Menteri Pertanian Nomor 327/Kpts/Um/5/1978 tentang Status Proteksi untuk Penyu Belimbing. Jadi, saat ini hewan tersebut sudah masuk ke dalam daftar prioritas konservasi untuk menjaga populasinya di alam."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="2. Penyu Lekang"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="250dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/lekang"
+                    android:layout_margin="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu lekang merupakan salah satu spesies dari genus Lepidochelys. Penyu dalam genus ini memiliki ukuran yang lebih kecil daripada spesies penyu dalam genus lainnya. Seaworld menyebutkan bahwa penyu lekang memiliki panjang karapas sekitar 51 hingga 75 cm. Beratnya pun berkisar antara 33 sampai dengan 50 kilogram saja. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Dibandingkan dengan spesies penyu lainnya, penyu lekang memiliki jumlah terbanyak di dunia. Akan tetapi, menurut IUCN, spesies ini mengalami penurunan populasi secara global sebanyak 30 hingga 50 persen. Beragam aktivitas manusia berpengaruh pada kondisi ini. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="3. Penyu Tempayan"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="250dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/tempayan"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu yang dikenal dengan nama loggerhead sea turtle dalam bahasa Inggris ini hidup di Samudra Atlantik, Pasifik, Hindia, juga di Laut Tengah. Mereka tampil unik dengan tempurung atau karapaks berbentuk hati. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Gak cuma tampil unik, penyu tempayan ternyata punya banyak peranan penting di ekosistem laut yang membuatnya dijuluki spesies kunci."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="4. Penyu Hijau"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="250dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/hijau"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu hijau (Chelonia mydas) adalah reptil penyu laut spesies Chelonia yang menjadi satwa endemik di seluruh perairan Indonesia. Penyu ini tergolong keluarga Cheloniidae yang tinggal di perairan laut tropis dan subtropis di kawasan Samudera Atlantik dan Samudera Pasifik."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Nama Penyu Hijau Bukan Diambil dari Warna Cangkangnya. Disebut penyu hijau, karena sebagian kulitnya berwarna hijau dan disebabkan adanya lapisan lemak berwarna hijau di bawah tempurungnya. Meskipun ia merupakan seekor reptil, faktanya penyu hijau adalah hewan herbivora. Bahkan, ia adalah satu-satunya penyu herbivora."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="5. Penyu Pipih"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="250dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/pipih"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Karapas penyu identik dengan bentuknya yang melengkung seperti kubah. Tapi tahukah kamu kalau ada satu spesies yang tempurungnya cenderung datar? Penyu istimewa ini disebut dengan penyu pipih."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Penyu pipih memiliki tempurung berwarna hijau zaitun atau abu pucat dengan bagian bawah tubuh berwarna krem kekuningan. Jika dilihat dari atas, bentuk karapasnya ialah oval atau menyerupai bentuk hati. Yang membedakan dari spesies penyu lain ialah  karapasnya yang cenderung datar dengan pinggiran yang sedikit melengkung ke atas.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="6. Penyu Sisik"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="250dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/sisik"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu Sisik, atau yang bernama ilmiah Eretmochelys imbricata adalah salah satu spesies penyu laut yang paling terancam punah. Karakteristik penyu sisik adalah ukurannya yang kecil hingga sedang dan sisik-sisiknya yang memiliki warna-warni cerah pada kulitnya."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Penyu Sisik menghuni terumbu karang, lautan tropis, dan perairan hangat di seluruh dunia. Mereka sering ditemukan di sekitar terumbu karang yang kaya sumber makanan mereka, yaitu spons laut."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView49" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENYU" />
+
+</FrameLayout>
