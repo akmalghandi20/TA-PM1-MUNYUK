@@ -13,10 +13,6 @@ import com.uti.indonesea.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var usernameInpute : EditText
-    lateinit var passwordInpute : EditText
-    lateinit var loginBtn : Button
-
     private lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,16 +20,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         replaceFragment(HomeFragment())
 
-        usernameInpute = findViewById(R.id.username_input)
-        passwordInpute = findViewById(R.id.password_input)
-        loginBtn = findViewById(R.id.login_btn)
-
-        loginBtn.setOnClickListener {
-            val username = usernameInpute.text.toString()
-            val password = passwordInpute.text.toString()
-            Log.i("Test Credentials", "Username : $username and Password $password")
-
-        }
 
 
         binding.btnMenu.setOnItemSelectedListener {
