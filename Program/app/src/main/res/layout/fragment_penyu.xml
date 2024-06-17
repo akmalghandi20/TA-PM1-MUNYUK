@@ -228,6 +228,46 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="6. Penyu Sisik"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="250dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/sisik"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu Sisik, atau yang bernama ilmiah Eretmochelys imbricata adalah salah satu spesies penyu laut yang paling terancam punah. Karakteristik penyu sisik adalah ukurannya yang kecil hingga sedang dan sisik-sisiknya yang memiliki warna-warni cerah pada kulitnya."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Penyu Sisik menghuni terumbu karang, lautan tropis, dan perairan hangat di seluruh dunia. Mereka sering ditemukan di sekitar terumbu karang yang kaya sumber makanan mereka, yaitu spons laut."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView49" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
