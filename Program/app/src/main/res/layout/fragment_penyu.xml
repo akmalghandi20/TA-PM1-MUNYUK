@@ -148,6 +148,46 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="4. Penyu Hijau"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="250dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/hijau"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu hijau (Chelonia mydas) adalah reptil penyu laut spesies Chelonia yang menjadi satwa endemik di seluruh perairan Indonesia. Penyu ini tergolong keluarga Cheloniidae yang tinggal di perairan laut tropis dan subtropis di kawasan Samudera Atlantik dan Samudera Pasifik."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Nama Penyu Hijau Bukan Diambil dari Warna Cangkangnya. Disebut penyu hijau, karena sebagian kulitnya berwarna hijau dan disebabkan adanya lapisan lemak berwarna hijau di bawah tempurungnya. Meskipun ia merupakan seekor reptil, faktanya penyu hijau adalah hewan herbivora. Bahkan, ia adalah satu-satunya penyu herbivora."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView42" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
