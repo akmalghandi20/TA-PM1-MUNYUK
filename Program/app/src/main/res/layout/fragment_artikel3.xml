@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Artikel2Fragment">
+    tools:context=".Artikel3Fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -12,11 +12,11 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/txt_artikel2"
+            android:id="@+id/txt_artikel3"
             style="@style/TitleFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PARI MANTA"
+            android:text="Lumba - Lumba"
             android:textAlignment="center"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -24,47 +24,47 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <FrameLayout
-            android:id="@+id/art_parimanta"
+            android:id="@+id/art_lumba"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_artikel2">
+            app:layout_constraintTop_toBottomOf="@+id/txt_artikel3">
 
             <ImageView
-                android:id="@+id/img_artikel2"
+                android:id="@+id/img_artikel3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top|center"
                 android:layout_margin="15dp"
-                android:src="@drawable/parimanta" />
+                android:src="@drawable/lumbalumba" />
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/isi_artikel2"
+            android:id="@+id/isi_artikel3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="top|center"
             android:layout_margin="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/art_parimanta">
+            app:layout_constraintTop_toBottomOf="@+id/art_lumba">
 
             <TextView
-                android:id="@+id/judul_parimanta"
+                android:id="@+id/judul_lumba"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:text="@string/berita_dua" />
+                android:text="@string/berita_tiga" />
 
             <TextView
-                android:id="@+id/cnt_artikel2"
+                android:id="@+id/cnt_artikel3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
-                android:textSize="12dp"
-                android:text="@string/artikel2" />
+                android:textSize="13dp"
+                android:text="@string/artikel3" />
         </FrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
