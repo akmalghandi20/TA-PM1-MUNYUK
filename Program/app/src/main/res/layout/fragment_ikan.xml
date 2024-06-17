@@ -166,7 +166,7 @@
                     android:layout_width="230dp"
                     android:layout_height="120dp"
                     android:layout_margin="15dp"
-                    android:src="@drawable/SelusurManinjau"
+                    android:src="@drawable/selusurmaninjau"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtselusur" />
 
@@ -219,7 +219,7 @@
                     android:layout_height="130dp"
                     android:layout_margin="15dp"
                     android:background="#00FFFFFF"
-                    android:src="@drawable/ikanBatak"
+                    android:src="@drawable/ikanbatak"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtikanbatak" />
 
@@ -283,7 +283,7 @@
                     android:layout_width="250dp"
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
-                    android:src="@drawable/Terubuk"
+                    android:src="@drawable/terubuk"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtterubuk" />
 
@@ -336,7 +336,7 @@
                     android:layout_height="220dp"
                     android:layout_margin="15dp"
                     android:background="#00FFFFFF"
-                    android:src="@drawable/Belida"
+                    android:src="@drawable/belida"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtbelida" />
 
@@ -413,7 +413,7 @@
                     android:layout_height="140dp"
                     android:layout_margin="15dp"
                     android:background="#00FFFFFF"
-                    android:src="@drawable/RajaLaut"
+                    android:src="@drawable/rajalaut"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtraja" />
 
