@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,8 +17,173 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp">
 
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Paus merupakan mamalia laut terbesar dan hewan terbesar saat ini. Namun ukurannya yang besar bukan berarti populasinya banyak. Saat ini paus merupakan hewan yang dilindungi diseluruh dunia."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Terancamnya populasi paus diakibatkan oleh perburuan dan pembunuhan ikan paus pada awal abad 2000. hal itu dilakukan untuk diambil daging dan lemaknya yang sebenarnya dapat diubah menjadi sejenis minyak."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="1. Paus Biru"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/biru"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Paus biru atau Balaenoptera musculus merupakan mamalia laut yang masuk kedalam subordo paus balin. Paus biru memiliki bentuk tubuh lonjong dan memanjang.  Paus terbesar di dunia adalah paus biru yang memiliki berat 190 ton dengan ukuran panjang hingga 30,5 meter. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Bila dibandingkan dengan tubuh paus lain, paus biru memiliki tubuh yang panjang dan tampak membentang. Kepalanya datar menyerupai huruf U, dan memiliki punggung yang terbentang dari lubang sembur hingga atas bibir."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Selain merupakan paus terbesar di dunia, paus biru juga menjadi salah satu jenis paus yang populasinya semakin sedikit. Banyak orang yang memburu ikan paus untuk berbagai keperluan. Semenjak diberlakukannya pelarangan perburuan paus, penelitian tidak dapat memastikan apakah populasi paus biru global meningkat atau tetap stabil."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="2. Paus Edeni"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="250dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/edeni"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Paus edeni adalah salah satu spesies paus rorqual. Dengan standar rorqual, mereka termasuk kecil, dengan berat tidak lebih dari 25 ton. Paus ini menyukai perairan tropis dan hangat daripada perairan kutub."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Spesies ini berwarna abu-abu gelap di daerah dorsal dan lebih terang pada ventral. Terdapat tiga lipatan yang jelas pada daerah rostrum. Karakteristik semburannya bervariasi, terkadang menyembur di bawah air kemudian kecil atau sama sekali tidak ada ketika sampai ke permukaan."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="3. Paus Bungkuk"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="250dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/bungkuk"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Paus bungkuk (Megaptera novaeangliae) adalah salah satu spesies paus balin rorkual terbesar, panjang paus bungkuk dewasa sebesar 12–16 meter dan memiliki berat 36.000 kilogram. Paus bungkuk memiliki bentuk tubuh yang istimewa, dengan sirip dada panjang dan kepala menonjol. Hewan ini adalah hewan akrobatik, sering muncul di permukaan air."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Penampilannya dapat dikenali dari sirip dada panjang dan kepala menonjol yang khas. Selain itu, kepala humpback whale juga dipenuhi oleh totol-totol yang berjajar. Warna tubuhnya kombinasi antara hitam dan putih, dengan distribusi corak putih terletak pada sirip dada, tubuh ventral, dan ekor."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Paus bungkuk sejatinya tidak benar-benar bungkuk. Julukan itu datang dari sirip kecil di punggung mereka yang mirip seperti berpunuk, serta kebiasaannya membungkukkan punggung saat hendak menyelap."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
