@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,6 +20,68 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="70dp">
 
+                <ImageView
+                    android:id="@+id/imgkima"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/kima"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkima" />
+
+                <TextView
+                    android:id="@+id/txtkima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Kima"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdesk" />
+
+                <TextView
+                    android:id="@+id/txtdesk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Sebagai negara yang memilki perairan laut luas, tak ayal Indonesia memiliki berbagai ragam hayati biota laut. Salah satunya adalah kerang. Dari banyaknya kerang yang ada di Indonesia, berikut beberapa jenis kerang yang dilindungi."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtkima1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Kima merupakan salah satu jenis bivalvia (kerang-kerangan) yang sering ditemukan pada perairan ekosistem karang. Tubuhnya lunak dan dilindungi sepasang cangkang bertangkup. Cangkang kima terdiri dari 2 tangkup simetris yang terbuat dari zat kapur atau kalsium karbonat (CaCO3) dan umumnya berwarna putih kekuningan. Kima dapat tumbuh menjadi sangat besar di lingkungan terumbu karang."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgkima" />
+
+                <TextView
+                    android:id="@+id/txtkima2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Kima menjadi salah satu hewan laut yang dilindungi di Indonesia. Dilansir pada laman bpsplpadang.kkp.go.id, hewan bercangkang ini telah dilindungi sejak tahun 1999. Berdasarkan Peraturan Pemerintah Nomor 7 Tahun 1999 tentang Pengawetan dan Jenis Tumbuhan dan Satwa menetapkan tujuh jenis kima yang hidup di Indonesia ke dalam kategori satwa dilindungi."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkima1" />
+
+                <TextView
+                    android:id="@+id/txtkima3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Ketujuh kima yang dilindungi tersebut yaitu kima tapak kuda/kuku beruang (Hippopus hippopus), kima Cina (Hippopus porcellanus), kima kunia (Tridacna crocea), kima selatan (Tridacna derasa), kima raksasa (Tridacna gigas), kima kecil (Tridacna maxima), dan kima sisik/seruling (Tridacna squamosa). "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkima2" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
