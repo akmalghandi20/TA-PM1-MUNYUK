@@ -41,6 +41,9 @@ class CategoryFragment : Fragment() {
         binding.btnkerang.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, KerangFragment()).commit()
         }
+        binding.btnlumba.setOnClickListener{
+            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, LumbaFragment()).commit()
+        }
         return binding.root
     }
 
