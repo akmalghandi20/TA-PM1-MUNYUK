@@ -188,6 +188,46 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="5. Penyu Pipih"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="250dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/pipih"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Karapas penyu identik dengan bentuknya yang melengkung seperti kubah. Tapi tahukah kamu kalau ada satu spesies yang tempurungnya cenderung datar? Penyu istimewa ini disebut dengan penyu pipih."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Penyu pipih memiliki tempurung berwarna hijau zaitun atau abu pucat dengan bagian bawah tubuh berwarna krem kekuningan. Jika dilihat dari atas, bentuk karapasnya ialah oval atau menyerupai bentuk hati. Yang membedakan dari spesies penyu lain ialah  karapasnya yang cenderung datar dengan pinggiran yang sedikit melengkung ke atas.  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView46" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
