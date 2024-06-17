@@ -101,7 +101,7 @@
                 android:background="#00EEEEEE"
                 android:textStyle="bold"
                 android:textAlignment="center"
-                android:text="Pari Manta adalah salah satu ikan pari yang dilindungi di indonesia"
+                android:text="@string/berita_dua"
                 android:textSize="14dp"
                 tools:ignore="RtlCompat" />
         </FrameLayout>
@@ -131,7 +131,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:background="#00EEEEEE"
-                android:text="Lumba-Lumba adalah salah satu hewan dilindungi di Indonesia dan tersebar luas di seluruh laut Indonesia"
+                android:text="@string/berita_tiga"
                 android:textAlignment="center"
                 android:textSize="14dp"
                 android:textStyle="bold"
@@ -163,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:background="#00EEEEEE"
-                android:text="Dugong adalah salah satu hewan dilindungi di Indonesia dan tersebar luas di seluruh laut Indonesia"
+                android:text="@string/berita_empat"
                 android:textAlignment="center"
                 android:textSize="14dp"
                 android:textStyle="bold"
