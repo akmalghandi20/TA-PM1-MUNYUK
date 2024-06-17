@@ -82,6 +82,45 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtkima2" />
+
+                <TextView
+                    android:id="@+id/txtkambing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="2. Kerang Kepala Kambing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkima3" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/kepalakambing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkambing" />
+
+                <TextView
+                    android:id="@+id/txtkambing1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Cassis Cornuta atau sering disebut Kerang Kepala Kambing adalah salah satu spesies terbesar dalam hal ukuran cangkang dalam filum moluska. Kerang ini masuk dalam famili Cassidae. Hewan bertubuh lunak dengan nama lain kerang helm ini umumnya bisa memiliki ukuran 22 sentimeter hingga dapat mencapai ukuran maksimal 36 sentimeter."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Kerang kepala kambing (Cassis Cornuta) adalah salah satu moluska yang dilindungi pemerintah. Diatur dalam Permen LHK nomor P.106/MENLHK/SETJEN/KUM.1/12/2018 Tentang Perubahan Kedua atas Peraturan Menteri Lingkungan Hidup dan Kehutanan Nomor P.20/MENLHK/SETJEN/KUM.1/6/2018 Tentang Jenis Tumbuhan dan Satwa yang Dilindungi Jo Peraturan Pemerintah Nomor 7 tahun 1999 Tentang Pengawetan Jenis Tumbuhan dan Satwa."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtkambing1" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
