@@ -208,6 +208,46 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtrisso1" />
+
+                <TextView
+                    android:id="@+id/txttotol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="4. Lumba - Lumba Totol"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtrisso2" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/totol"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txttotol" />
+
+                <TextView
+                    android:id="@+id/txttotol1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Lumba-lumba totol adalah spesies lumba-lumba yang ditemukan di seluruh samudra beriklim sedang dan tropis di dunia. Bintik-bintik merupakan karakteristik utama yang menciri pada hewan dewasa, meskipun individu yang belum dewasa umumnya berwarna seragam dan rentan dirancukan dengan lumba-lumba hidung botol. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+                <TextView
+                    android:id="@+id/txttotol2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Lumba-lumba totol pantropis sangat aktif dan cenderung melakukan lompatan besar dan heboh dari laut. Lumba-lumba ini memiliki perilaku permukaan bertipe &quot;merusak&quot; dan sering kali melompat ke atas permukaan air selama satu detik atau lebih. Spesies ini mulai terancam akibat pembunuhan jutaan individu dengan pukat harimau tuna."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txttotol1" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
