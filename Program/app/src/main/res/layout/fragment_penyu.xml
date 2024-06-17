@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,8 +17,57 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp">
 
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Tahukah kamu jika dari tujuh spesies penyu di dunia, Indonesia memiliki enam spesies di antaranya. Seperti apa rupa dan keistimewaannya. Mari berkenalan lebih jauh dengan satwa laut yang satu ini."
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingTop="50dp"
+                    android:text="1. Penyu Belimbing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="250dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/belimbing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu belimbing adalah salah satu jenis penyu yang ada di perairan Indonesia. Jenis penyu yang satu ini mempunyai nama latin Dermochelys coriacea atau dalam bahasa Inggris disebut dengan leatherback turtle. Penyu belimbing merupakan penyu dengan ukuran yang cukup besar."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Di Indonesia sendiri, sudah ditetapkan Surat Keputusan Menteri Pertanian Nomor 327/Kpts/Um/5/1978 tentang Status Proteksi untuk Penyu Belimbing. Jadi, saat ini hewan tersebut sudah masuk ke dalam daftar prioritas konservasi untuk menjaga populasinya di alam."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView28" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
