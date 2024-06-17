@@ -168,6 +168,46 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtbotol2" />
+
+                <TextView
+                    android:id="@+id/txtrisso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Lumba - Lumba Risso"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtbotol3" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="250dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/risso"
+                    android:layout_margin="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtrisso" />
+
+                <TextView
+                    android:id="@+id/txtrisso1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Lumba lumba risso adalah salah satu jenis lumba lumba yang hidup di laut. Nama ilmiahnya adalah Grampus griseus. Lumba lumba ini memiliki ciri khas berupa kepala yang bulat, sirip punggung yang tinggi, dan tubuh yang berwarna abu-abu dengan bercak putih."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+                <TextView
+                    android:id="@+id/txtrisso2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Lumba - lumba jenis ini mengalami penurunan dikarenakan perubahan iklim dunia disebabkan oleh peningkatan konsentrasi gas rumah kaca di atmosfer, akibat aktivitas manusia seperti pembakaran bahan bakar fosil, penggundulan hutan, dan pertanian. Dan juga pastinya ada campur tangan manusia dalam proses penurunan populasinya."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtrisso1" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
