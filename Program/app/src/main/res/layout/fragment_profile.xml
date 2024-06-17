@@ -59,8 +59,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/et_style"
-        android:text="Update Profile"
-        android:id="@+id/Profile_update_btn"/>
+        android:text="Sig In"
+        android:id="@+id/login"/>
     <ProgressBar
         android:layout_width="35dp"
         android:layout_height="wrap_content"
