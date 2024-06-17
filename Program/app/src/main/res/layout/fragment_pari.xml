@@ -69,6 +69,46 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="2. Pari Kai"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="180dp"
+                    android:layout_height="230dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/kai"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Pari Kai (Urolophus kaianus) punya bentuk tubuh membulat dengan moncong yang tumpul, bagian punggungnya berwarna cokelat kekuningan. Pari Kai punya lima pasang celah insang di tubuhnya yang relatif pendek. Spesies ikan ini punya ekor yang lebih pendek dari ukuran tubuhnya, uniknya lagi di bagian tengah ekor pari kai memiliki duri."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Ikan Pari Kai adalah spesies hewan endemik Pulau Kei di Maluku yang bisa hidup di kedalaman 236 meter di bawah permukaan laut."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView21" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
