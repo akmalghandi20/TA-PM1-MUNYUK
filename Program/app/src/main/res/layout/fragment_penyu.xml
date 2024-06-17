@@ -68,6 +68,46 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="2. Penyu Lekang"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="250dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/lekang"
+                    android:layout_margin="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Penyu lekang merupakan salah satu spesies dari genus Lepidochelys. Penyu dalam genus ini memiliki ukuran yang lebih kecil daripada spesies penyu dalam genus lainnya. Seaworld menyebutkan bahwa penyu lekang memiliki panjang karapas sekitar 51 hingga 75 cm. Beratnya pun berkisar antara 33 sampai dengan 50 kilogram saja. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Dibandingkan dengan spesies penyu lainnya, penyu lekang memiliki jumlah terbanyak di dunia. Akan tetapi, menurut IUCN, spesies ini mengalami penurunan populasi secara global sebanyak 30 hingga 50 persen. Beragam aktivitas manusia berpengaruh pada kondisi ini. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView36" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
