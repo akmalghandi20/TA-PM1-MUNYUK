@@ -24,10 +24,51 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="15dp"
                     android:text="Indonesia memiliki keragaman biota laut tertinggi di dunia, termasuk jenis elasmobranchii, atau ikan bertulang rawan. Namun, seiring tingginya eksploitasi sumberdaya perikanan, alat tangkap tidak ramah lingkungan, dan degradasi lingkungan habitatnya, populasi beragam jenis ikan di perairan Indonesia berkurang. Bahkan, beberapa jenis ikan pun sudah langka dijumpai, termasuk ikan pari. Berikut jenis - jenis Ikan Pari yang dilindungi."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="1. Pari Manta"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/manta"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Pari manta merupakan jenis ikan pari yang mempunyai ciri khas unik yaitu mempunyai sirip sefala (kepala) yang menyerupai sepasang tanduk di dekat mulutnya. Bisa dikatakan terbesar di dunia karena ukuran lebar tubuhnya bisa mencapai 6 – 8 m dari ujung sirip dada ke ujung sirip lainnya sehingga berat pari manta bisa mencapai sekitar 3 ton. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Populasi pari manta yang terus mengalami penurunan harus menjadi perhatian semua pihak. Memberikan penyuluhan kepada masyarakat nelayan tentang potensi ekonomi pari manta dalam bidang pariwisata serta memberikan alternatif pendapatan untuk meningkatkan ekonomi masyarakat pesisir."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView18" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
