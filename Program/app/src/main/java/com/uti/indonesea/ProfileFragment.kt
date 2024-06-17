@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.uti.indonesea.databinding.FragmentLoginBinding
+import com.uti.indonesea.databinding.FragmentProfileBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,8 +35,8 @@ class ProfileFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentLoginBinding.inflate(inflater, container, false)
-        binding.masuk.setOnClickListener{
+        val binding= FragmentProfileBinding.inflate(inflater, container, false)
+        binding.login.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay,LoginFragment()).commit()
         }
         return binding.root
