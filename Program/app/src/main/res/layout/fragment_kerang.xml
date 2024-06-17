@@ -97,6 +97,7 @@
                     android:id="@+id/imageView2"
                     android:layout_width="250dp"
                     android:layout_height="170dp"
+                    android:layout_margin="15dp"
                     android:src="@drawable/kepalakambing"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtkambing" />
@@ -121,6 +122,58 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txtkambing1" />
+
+                <TextView
+                    android:id="@+id/txtnautilus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="15dp"
+                    android:text="3. Nautilus Berongga"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/nautilusberongga"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnautilus" />
+
+                <TextView
+                    android:id="@+id/txtnautilus1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Nautilus merupakan moluska (hewan bertubuh lunak) pelagis dari famili Nautilidae. Berdasarkan catatan fosil yang telah ditemukan, nautilus tidak mengalami evolusi selama kurun waktu 500 juta tahun terakhir. Perubahan yang terjadi hanya tampak pada ukurannya saja yang semakin kecil dari waktu ke waktu."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+                <TextView
+                    android:id="@+id/txtnautilus2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Sekilas, nautilus memiliki bentuk umum yang mirip dengan cumi-cumi dengan kepala menonjol, tentakel yang panjang, lembut dan fleksibel. Faktanya hewan ini memiliki kekerabatan dengan cumi-cumi dan gurita yaitu pada tingkatan kelas Chepalopoda. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnautilus1" />
+
+                <TextView
+                    android:id="@+id/txtnautilus3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Hewan ini merupakan satu-satunya anggota kelas Chepalopoda dengan cangkang eksternal. Cangkangnya berbentuk spiral yang terdiri dari bilik besar untuk menempatkan tubuh dan bilik kecil yang berfungsi sebagai ruang udara untuk membantu nautilus mengapung di laut. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnautilus2" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
