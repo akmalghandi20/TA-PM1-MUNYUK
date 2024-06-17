@@ -149,9 +149,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:backgroundTint="#FFFFFF"
-                    android:src="@drawable/kerang"
                     android:layout_marginEnd="50dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:src="@drawable/kerang"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -160,7 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
                     android:src="@drawable/ikan"
                     app:layout_constraintEnd_toStartOf="@+id/btnkerang"
                     app:layout_constraintStart_toStartOf="parent"
