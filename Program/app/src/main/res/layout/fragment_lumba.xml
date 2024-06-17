@@ -248,6 +248,46 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txttotol1" />
+
+                <TextView
+                    android:id="@+id/txtfraser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="50dp"
+                    android:text="5. Lumba - Lumba Fraser"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txttotol2" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="250dp"
+                    android:layout_height="170dp"
+                    android:src="@drawable/fraser"
+                    android:layout_margin="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtfraser" />
+
+                <TextView
+                    android:id="@+id/txtfraser1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Jenis lumba-lumba lainnya adalah lumba-lumba fraser. Lumba-lumba ini merupakan jenis lumba-lumba yang dapat ditemukan di perairan Indonesia. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+                <TextView
+                    android:id="@+id/txtfraser2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="Seekor mamalia laut cerdas yang memiliki nama latin Lagenodelphos hosei ini adalah jenis lumba-lumba paling kekar dan gempal jika dibanding jenis lumba-lumba lainnya. Mamalia ini bernafas dengan menghirup udara melalui paru-paru."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtfraser1" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
