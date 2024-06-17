@@ -47,6 +47,9 @@ class CategoryFragment : Fragment() {
         binding.btnpaus.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, PausFragment()).commit()
         }
+        binding.btnpari.setOnClickListener{
+            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay, PariFragment()).commit()
+        }
         return binding.root
     }
 
